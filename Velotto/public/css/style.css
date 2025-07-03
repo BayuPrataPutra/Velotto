@@ -1,0 +1,175 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.bg-navbar{
+    background-color: transparent;
+}
+
+.logoimg{
+    background-color: #b3b3b3;
+}
+
+.logo{
+    font-family: "Bauhaus 93";
+}
+
+.navi a{
+    font-size:22px;
+    color: white;
+    font-family: "bahnschrift";
+}
+
+.tagline{
+    background-image: url(../img/mobil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tagline .p1{
+    font-family: "News706 BT";
+    font-size: 8vh;
+    text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000 ;
+}
+
+.tagline .p2{
+    text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000 ;
+}
+
+.sub{
+    font-family: "Edwardian Script ITC";
+    color: grey;
+    font-weight: lighter;
+}
+
+.benefit img{
+    height: 20.8vh;
+}
+
+.benefit img:hover{
+    height: 25vh;
+}
+
+.cararental{
+    background-image: url(../img/car-keys.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cararental img{
+    width: 100px;
+}
+
+.cararental img:hover{
+    width: 120px;
+}
+
+.img1{padding-top: 100px;}
+.img2{padding-top: 66px;}
+.img3{padding-top: 35px;}
+.img4{padding-top: 0px;}
+
+.produk img{
+  height: 65%;
+  width: 80%;
+  margin: auto;
+}
+
+.produk .card{
+  height: 55vh;
+}
+
+.testimoni{
+    background-image: url(../img/bg\ testimoni.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial{
+    height: 28.5vh;
+}
+
+.imgtesti{
+    height: 20.8vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paddingtopcararental{
+    padding-top: 24px;
+}
+
+.paddingcararental{
+    padding: 24px;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleAutoplaying .carousel-inner .carousel-item .col-lg-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+@media (max-width: 767px) {
+    .testimonial {
+      height: 40vh;
+    }
+  }
+
+@media (max-width: 767px) {
+  .benefit img {
+    padding-bottom: 30px;
+    height: 11vh;
+  }
+  .benefit img:hover{
+    height: 12vh;
+  }
+}
+
+@media (max-width: 767px) {
+    .keterangan {
+      display: none;
+    }
+  }
+
+@media (max-width: 767px) {
+    .paddingtopcararental, .paddingcararental, .paddingcararental p{
+        padding: 0px;
+        padding-top: 15px;
+      }
+    .cararental img{
+        width: 70px;
+        padding: 0px;
+    }
+    .cararental img:hover{
+        width: 88px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .tagline{
+        background-image: url(../img/mobilkecil.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } 
+  }
+
+@media (max-width: 767px) {
+    .produk img{
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .card-text{
+      font-size: smaller;
+    }
+  }
+
